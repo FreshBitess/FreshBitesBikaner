@@ -1,0 +1,63 @@
+{
+  "_instructions": "🥗 FRESH BITES WEEKLY MENU — Edit this file every weekend!",
+  "_how_to_edit": [
+    "1. Change items in 'salads', 'drinks', or 'sauces' arrays below",
+    "2. To ADD a new item: copy an existing item, paste it, change the values",
+    "3. To REMOVE an item: delete the entire { } block (and the comma before it)",
+    "4. For images: put your photo in assets/images/ and update the 'image' path",
+    "5. Save this file and push to GitHub — the website updates automatically!",
+    "6. Categories for tabs: 'salad', 'drink', 'sauce' (match the 'category' field)",
+    "7. Tags: 'veg', 'spicy', 'sweet', 'new', 'protein' — use any combo you want"
+  ],
+
+  "week_label": "This Week's Menu",
+
+  "salads": [
+    {
+      "name": "Sprout Salad",
+      "description": "Fresh moong sprouts tossed with diced onion, tomato, green chili, coriander, lemon & a hit of chaat masala. Crunchy, tangy, and packed with protein.",
+      "price": "₹49",
+      "image": "assets/images/sprout-salad.jpg",
+      "badge": "Bestseller",
+      "tags": ["veg", "protein"]
+    },
+    {
+      "name": "Sweet Corn Salad",
+      "description": "Buttery sweet corn kernels mixed with colourful bell peppers, onion, tomato, fresh coriander & a squeeze of lime. The perfect street-style crunch.",
+      "price": "₹49",
+      "image": "assets/images/sweet-corn-salad.jpg",
+      "badge": "",
+      "tags": ["veg"]
+    }
+  ],
+
+  "drinks": [
+    {
+      "name": "Hibiscus Drink",
+      "description": "Refreshing ruby-red hibiscus flower drink served ice-cold. Naturally tangy, lightly sweetened, and beautifully vibrant. Your new favourite cooldown.",
+      "price": "₹39",
+      "image": "assets/images/hibiscus-drink.jpg",
+      "badge": "New",
+      "tags": ["veg"]
+    }
+  ],
+
+  "sauces": [
+    {
+      "name": "Sweet Beetroot Sauce",
+      "description": "Our signature smooth, sweet beetroot dip — earthy, vibrant pink, and the perfect creamy companion to every salad bowl.",
+      "price": "Add-on",
+      "image": "assets/images/beetroot-sauce.jpg",
+      "badge": "Signature",
+      "tags": ["veg", "sweet"]
+    },
+    {
+      "name": "Spicy Coriander Sauce",
+      "description": "Bold, fiery green chutney made with fresh coriander, green chili & a secret spice blend. Not for the faint-hearted. 🔥",
+      "price": "Add-on",
+      "image": "assets/images/coriander-sauce.jpg",
+      "badge": "Spicy!",
+      "tags": ["veg", "spicy"]
+    }
+  ]
+}
